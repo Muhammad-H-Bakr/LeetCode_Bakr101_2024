@@ -1,0 +1,25 @@
+WITH LAGGER AS(
+    SELECT
+        MACHINE_ID,
+        PROCESS_ID,
+        ACTIVITY_TYPE,
+        TIMESTAMP - LAG(TIMESTAMP, 1, TIMESTAMP) OVER (ORDER BY MACHINE_ID, PROCESS_ID, TIMESTAMP) AS DIFF
+    FROM
+        ACTIVITY
+), ENDER AS(
+    SELECT
+        *
+    FROM
+        LAGGER
+    WHERE
+        ACTIVITY_TYPE = 'end'
+)
+SELECT
+    MACHINE_ID          "machine_id",
+    ROUND(AVG(DIFF), 3) "processing_time"
+FROM
+    ENDER
+GROUP BY
+    MACHINE_ID
+ORDER BY
+    1;
