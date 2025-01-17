@@ -1,4 +1,6 @@
-class Solution {
+package general_problems;
+
+class Problem1828 {
     public int[] countPoints(int[][] points, int[][] queries) {
         int[] res = new int[queries.length];
         for (int i = 0; i < queries.length; i++) {
