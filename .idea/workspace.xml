@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86638779-9398-4409-9586-6cdeb01b4450" name="Changes" comment="Welcome back!">
+    <list default="true" id="86638779-9398-4409-9586-6cdeb01b4450" name="Changes" comment="Refresh.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,18 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Muhammad-H-Bakr"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Muhammad-H-Bakr&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Muhammad-H-Bakr/LeetCode_Bakr101_2024.git",
-    "accountId": "ddeabf54-f23f-4ad9-a59b-d1678d9818aa"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Muhammad-H-Bakr/LeetCode_Bakr101_2024.git&quot;,
+    &quot;accountId&quot;: &quot;ddeabf54-f23f-4ad9-a59b-d1678d9818aa&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -46,31 +46,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Problem1492.executor": "Debug",
-    "Application.Problem2405.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Problem1492.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Problem17.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Problem2405.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Problem34.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Problem78.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/infinite-academy&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Problem2405">
+}</component>
+  <component name="RunManager" selected="Application.Problem78">
     <configuration name="Problem1492" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-22" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="general_problems.Problem1492" />
+      <module name="Bakr101_LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="general_problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="general_problems.Problem17" />
       <module name="Bakr101_LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +112,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="general_problems.Problem34" />
+      <module name="Bakr101_LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="general_problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem78" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="general_problems.Problem78" />
+      <module name="Bakr101_LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="general_problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem78" />
+        <item itemvalue="Application.Problem34" />
+        <item itemvalue="Application.Problem17" />
         <item itemvalue="Application.Problem2405" />
         <item itemvalue="Application.Problem1492" />
       </list>
@@ -105,8 +151,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
       </set>
     </attachedChunks>
   </component>
@@ -121,7 +167,14 @@
       <workItem from="1719355510244" duration="2947000" />
       <workItem from="1719425550723" duration="31000" />
       <workItem from="1737120587701" duration="1451000" />
-      <workItem from="1737122351801" duration="1659000" />
+      <workItem from="1737122351801" duration="4036000" />
+      <workItem from="1737126493128" duration="1582000" />
+      <workItem from="1737128189640" duration="2602000" />
+      <workItem from="1737131026179" duration="841000" />
+      <workItem from="1738179867796" duration="339000" />
+      <workItem from="1738180389367" duration="197000" />
+      <workItem from="1738180670997" duration="66000" />
+      <workItem from="1738223974305" duration="1037000" />
     </task>
     <task id="LOCAL-00001" summary="Welcome back!">
       <option name="closed" value="true" />
@@ -131,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737122745262</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refresh.">
+      <option name="closed" value="true" />
+      <created>1737124340436</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737124340436</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,17 +211,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Welcome back!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Welcome back!" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/general_problems/Problem2405.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Refresh." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refresh." />
   </component>
 </project>
